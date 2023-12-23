@@ -1,8 +1,8 @@
 [
-  {
+	{
 		"name": "Llanero",
-    		"replaces": "Hussar",
-    		"uniqueTo": "Nuevo Paraíso",
+		"replaces": "Hussar",
+		"uniqueTo": "Nuevo Paraíso",
 		"unitType": "Mounted",
 		"interceptRange": 1,
 		"movement": 4,
@@ -12,21 +12,21 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Cavalry",
 		"uniques": [
-                        "Personnel",
+			"Personnel",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-50]% Strength <vs cities> <when attacking>",
 			"Only available <in cities with a [Stable]>",
-			"Never appears as a Barbarian unit",
+			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Pursuit"]
+		"promotions": ["Pursuit"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
-        {
+    {
 		"name": "Sonic Cannon",
 		"replaces": "Cannon",
-                "uniqueTo": "Arkadia",
+		"uniqueTo": "Arkadia",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 20,
@@ -38,11 +38,11 @@
 		"uniques": [
 			"[+25]% Strength <vs [Low Tech] units>",
 			"[+33]% Strength <vs [Mounted] units>",
-			"[-50]% Strength <vs [Armored] units> <when attacking> ",
+			"[-50]% Strength <vs [Armored] units> <when attacking>",
 			"Consumes [1] [Weapons]",
-			"Never appears as a Barbarian unit",
+			"Never appears as a Barbarian unit"
 		],
-		"attackSound": "cannon",
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Ambusher",
@@ -66,7 +66,7 @@
 		],
 		"attackSound": "arrow"
 	},
-		{
+	{
 		"name": "Spotter",
 		"replaces": "Scout",
 		"uniqueTo": "The Unified Barbarians",
@@ -101,5 +101,5 @@
 			"Uncapturable"
 		],
 		"movement": 2
-	},
-  ]
+	}
+]

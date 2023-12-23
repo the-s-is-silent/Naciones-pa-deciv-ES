@@ -21,7 +21,7 @@
 		"outerColor": [127, 0, 40],
 		"innerColor": [245, 217, 0],
 		"style": "Paradisíaco",
-		"uniqueName": "United we stand, divided we fall",
+		"uniqueName": "United We Stand, Divided We Fall",
 		"uniques": [
 			"[-50]% Unhappiness from [Population] [in all cities]",
 			"[+1 Happiness] [in all cities] <after discovering [Radio]>",
@@ -33,27 +33,27 @@
 		"cities": [
 			"Unión",
 			"Honoris",
-                	"Solidaridad",
-                	"Fuerte Patientia",
-                	"Zulia",
-                	"Bolivar City",
-                	"Caracas",
-                	"Mérida" 
+			"Solidaridad",
+			"Fuerte Patientia",
+			"Zulia",
+			"Bolivar City",
+			"Caracas",
+			"Mérida" 
 		]
 	},
-        {
+	{
 		"name": "Arkadia",
 		"leaderName": "Pike",
 		"adjective": ["Arkadians"],
 		"startBias": ["Wasteland"],
-		"preferredVictoryType": "Transmission",
+		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Humanism",
 
 		"startIntroPart1": "This is our home now. We built this from nothing with our bare hands! Our dead are buried behind that wall, in this ground. Our ground! Some Earthlings think they can take that away? They think that because we came from the sky we don't belong here! But they have yet to realize one very important fact. We are on the ground now. And that means *we* are Earthlings!.",
 		"startIntroPart2": "Tonight, we celebrate our newfound peace. Tomorrow, we plan our war.",
 		"declaringWar": "There are people worth saving. Just not you.",
 		"attacked": "What you did tonight will haunt you until the end of your days.",
-                "defeated": "Somehow we allowed justice to become vengeance and vengeance to become sport, and I allowed that, that darkness to rise… but my complicity ends today.",
+		"defeated": "Somehow we allowed justice to become vengeance and vengeance to become sport, and I allowed that, that darkness to rise… but my complicity ends today.",
 		"introduction": "Greetings, Earthling.",
 		"neutralHello": "Even with all its faults, Earth is really beautiful.",
 		"hateHello": "You're watching us, but you haven't seen a thing.",
@@ -64,12 +64,13 @@
 		"innerColor": [3, 0, 77],
 		"style": "Arkadio",
 		"uniqueName": "Technological Superiority",
-                "uniques": [
-			"[+15]% Strength <vs [Barbarian] units>",
-        		"[+15]% Strength <vs [Low Tech] units>",
-			"+30% Strength when fighting City-State units and cities",
-        		"Starts with [Trade]"
-                ],
+		"uniques": [
+			"[+15]% Strength <vs cities>",
+			"[+30]% Strength <vs [Barbarian] units>",
+			"[+30]% Strength <vs [Low Tech] units>",
+			"[+30]% Strength <vs [City-State] units>",
+        	"Starts with [Trade]"
+		],
 		"cities": [
 			"Alpha",
 			"Bravo",
@@ -110,8 +111,8 @@
 		"startIntroPart2": "The choice is yours.",
 		"introduction": "Hello, nice to meet you (penguin language translated to English)",
 		"declaringWar": "I'm sorry, but that's how it has to be.",
-		"attacked": "So you underestimate penguins huh?  Well suffer the consequences!",
-		"defeated": "Maybe I underestimated you, what will you do now that you have enslaved our race?",
+		"attacked": "So you underestimate penguins, huh? Well, suffer the consequences!",
+		"defeated": "Maybe I underestimated you. What will you do now that you have enslaved our race?",
 		"neutralHello": "Yes?",
 		"hateHello": "What does the monkey want?",
 		"afterPeace": "Do you realize now who is superior?",
@@ -133,8 +134,8 @@
 			"Starts with [Navigation]",
 			"[-1 Science] [in all cities] <before discovering [Writing]>"
 		],
-	  "cities": ["Pingüineton","Pescado","Hielo Pescadil","Pescado Congelado"],
-          "civilopediaText": [
+		"cities": ["Pingüineton","Pescado","Hielo Pescadil","Pescado Congelado"],
+		"civilopediaText": [
 			{
 				"text": "In the aftermath of the great apocalypse that ravaged the world, a new civilization rose from the frigid depths of Antarctica. Led by the enigmatic Günther the Great, this group of mutant penguins found solace in their icy homeland, vowing to reclaim their rightful place as masters of the Earth."
 			}
@@ -163,14 +164,14 @@
 		"style": "Barbarians",
 		"uniqueName": "The Great Unification",
 		"uniques": [
-			"When defeating a [Barbarian] unit, earn [3] Gold and recruit it <with [100]% chance>",
+			"When defeating a [Barbarian] unit, earn [5] Gold and recruit it <with [100]% chance>",
 			"When conquering an encampment, earn [50] Gold and recruit a Barbarian unit <with [0]% chance>",
 			"Upon capturing a city, receive [3] times its [Gold] production as [Culture] immediately",
 			"Resting point for Influence with City-States is increased by [-10]",
-        		"[+100]% City-State Influence degradation",
-        		"[-15]% [Science] [in all cities]",
-        		"Starts with [Secrets of the Past]",
-        		"Starts with [Theocracy] adopted",
+			"[+100]% City-State Influence degradation",
+			"[-15]% [Science] [in all cities]",
+			"Starts with [Secrets of the Past]",
+			"Starts with [Theocracy] adopted",
 			"\"Borrows\" city names from other civilizations in the game"],
 		"cities": ["The King's Seat"]
 	}
